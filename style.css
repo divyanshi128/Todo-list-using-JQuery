@@ -1,0 +1,65 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body>h1{
+    color: brown;
+    margin: 50px;
+    text-align: center;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    border: 20px double rgb(28, 6, 6);
+    background-color: lightblue;
+    margin: auto;
+    width: 30vw;
+    border-radius: 12px;
+
+}
+
+#container h1{
+    color: rgb(30, 0, 100);
+    font-weight: bolder;
+    font-size: 40px;
+    background-color: cadetblue;
+    height: 60px;
+    padding-left: 10px;
+}
+.list{
+    text-decoration: line-through;
+    color: gray;
+}
+
+#plus{
+    float: right;
+    padding-right: 10px;
+    color: crimson;
+}
+
+#inp{
+    width: 99.4%;
+    height: 40px;
+    border-top: 2px solid brown;
+    border-bottom: 2px solid brown;
+}
+
+ul li {
+    font-size: 20px;
+    height: 40px;
+    width: 95%;
+    margin: 10px;
+    text-transform:capitalize ;
+    border: 1px solid blanchedalmond;
+    box-shadow: 10px 10px 20px inset  rgba(0,0,0,0.26);
+    padding-top: 15px;
+    border-radius: 8px;
+    color: white;
+
+}
+
+ul li span{
+    margin: 10px;
+}
